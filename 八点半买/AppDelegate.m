@@ -22,9 +22,10 @@
     
     AXWebViewController *webVC = [[AXWebViewController alloc] initWithAddress:@"https://m.bdbbuy.com"];
     webVC.showsToolBar = NO;
+    webVC.timeoutInternal = 10;
     webVC.enabledWebViewUIDelegate = YES;
     webVC.navigationType = AXWebViewControllerNavigationToolItem;
-    
+    webVC.enabledWebViewUIDelegate = YES;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:webVC];
     
     self.window.rootViewController = nav;

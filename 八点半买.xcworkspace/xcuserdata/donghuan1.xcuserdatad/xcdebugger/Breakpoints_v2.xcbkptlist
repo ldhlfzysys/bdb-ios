@@ -6,16 +6,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.m"
+            timestampString = "562219161.171055"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1256"
+            endingLineNumber = "1256"
+            landmarkName = "-webView:decidePolicyForNavigationAction:decisionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.m"
-            timestampString = "562141373.5961469"
+            timestampString = "562219161.172475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1161"
-            endingLineNumber = "1161"
-            landmarkName = "-webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:"
+            startingLineNumber = "1357"
+            endingLineNumber = "1357"
+            landmarkName = "-webView:didFailProvisionalNavigation:withError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
