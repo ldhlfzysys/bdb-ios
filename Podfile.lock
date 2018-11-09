@@ -14,9 +14,29 @@ PODS:
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
+  - UMCAnalytics (5.5.0):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCPush (3.2.2):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.4):
+    - UMCCommon
+  - UMCShare/Social/ReducedWeChat (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.4):
+    - UMCCommon
+    - UMCShare/Core
 
 DEPENDENCIES:
   - AXWebViewController (~> 0.6.0)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
@@ -25,7 +45,12 @@ SPEC CHECKSUMS:
   AXPracticalHUD: 821d170b31e050c426ef8754b07b4264a8b1d861
   AXWebViewController: 3a6751e9afdf2ca09663c3db460833f07c524d61
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  UMCAnalytics: 4667788559a72f2fa5077117d1b8802a3b6eb6bb
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCPush: 5ab89bdbcc1fe90b1c669ff79213b44dc4821ec5
+  UMCSecurityPlugins: '0831a08f3988f3cea9f1d3a7626cd9bee4fef150'
+  UMCShare: aa233aecad67979930fe43f3a2f676023b669439
 
-PODFILE CHECKSUM: 9523d37ffb96e337b7dbe2e7be1478ad537c1e0b
+PODFILE CHECKSUM: b2d9d40f2cac68be591f33801e114309013bd8f1
 
 COCOAPODS: 1.2.0

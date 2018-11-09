@@ -80,11 +80,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "AXIndicatorView/AXIndicatorView/Classes/AXIndicatorView.bundle"
   install_resource "AXPracticalHUD/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle"
   install_resource "AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle"
+  install_resource "UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "AXIndicatorView/AXIndicatorView/Classes/AXIndicatorView.bundle"
   install_resource "AXPracticalHUD/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle"
   install_resource "AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle"
+  install_resource "UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
