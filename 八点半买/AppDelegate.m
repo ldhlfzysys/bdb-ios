@@ -12,7 +12,7 @@
 
 #import <UMCommon/UMCommon.h>
 #import <UMPush/UMessage.h>
-#import "HomeViewController.h"
+
 
 @interface AppDelegate ()
 {
@@ -59,8 +59,8 @@
 }
 
 - (void)openNews{
-    HomeViewController *home = [[HomeViewController alloc] init];
-    [webVC.navigationController pushViewController:home animated:YES];
+//    HomeViewController *home = [[HomeViewController alloc] init];
+//    [webVC.navigationController pushViewController:home animated:YES];
     
 }
 
